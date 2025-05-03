@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: rgba(60, 60, 60, 0.45) 0px 20px 20px -20px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+.butttom0001 button{
+    text-decoration: none;
+    height: 45px;
+    width: 200px;
+    color: #3374C6;
+    font-weight: bolder;
+    font-size: 17px;
+    border: 1px solid #3374C6;
+    border-bottom: 4px solid #3374C6;
+    border-right: 3px solid  #8EC0F3;
+    border-left: 3px solid #8EC0F3;
+    cursor: pointer;
+    outline: none;
+    border-radius: 29px;
+    box-shadow: rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset, rgba(255, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.butttom0001 button:hover{
+    background-image: linear-gradient(to right, #8EC0F3,#3374C6);
+    color: white;
+    border: none;
+}
+.buttoq{
+    margin-left: 450px;
+    font-size: 19px;
+    color: #002248;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.buttoq:hover{
+    border-bottom: 2px solid #3374C6;
+    color: #8EC0F3;
+}
+.login{
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #8EC0F3,#3374C6);
+    
+}
+.bro{
+    text-decoration: none;
+    cursor: pointer;
+}
+.bro h1{
+    color: #0059c6c0;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.bro>h1 span{
+    color: #193e6ce1;
+}
+
